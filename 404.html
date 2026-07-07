@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Страница не найдена - Пушок</title>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Roboto:wght@300;400;500;700&family=Pacifico&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #F9F6F0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+        }
+        .error-container {
+            padding: 40px;
+        }
+        .error-code {
+            font-family: 'Pacifico', cursive;
+            font-size: 120px;
+            color: #E2C08D;
+            margin-bottom: 20px;
+        }
+        .error-title {
+            font-family: 'Merriweather', serif;
+            font-size: 35px;
+            color: #3E2F1F;
+            margin-bottom: 20px;
+            font-weight: 300;
+        }
+        .error-text {
+            font-size: 20px;
+            color: #2E2E2E;
+            margin-bottom: 40px;
+            line-height: 1.6;
+        }
+        .back-btn {
+            display: inline-block;
+            text-decoration: none;
+            font-family: 'Roboto', sans-serif;
+            font-size: 20px;
+            padding: 15px 63px;
+            border: 4px solid #285384;
+            color: #3E2F1F;
+            background-color: transparent;
+            border-radius: 50px;
+            transition: all 0.3s ease;
+        }
+        .back-btn:hover {
+            background-color: #285384;
+            color: white;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+        }
+    </style>
+</head>
+<body>
+    <div class="error-container">
+        <div class="error-code">404</div>
+        <h1 class="error-title">Ой! Страница не найдена</h1>
+        <p class="error-text">Возможно, она ещё в разработке<br>или лапки наших мастеров до неё не дошли</p>
+        <a href="index.html" class="back-btn">На главную</a>
+    </div>
+</body>
+</html>
